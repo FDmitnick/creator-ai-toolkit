@@ -1,0 +1,11 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local editor files
+.vscode/
+.idea/
+
+# Private drafts and unreviewed images
+private/
+drafts/
