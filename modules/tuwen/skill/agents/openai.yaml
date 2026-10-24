@@ -1,0 +1,4 @@
+interface:
+  display_name: "图文"
+  short_description: "用平铺直述的中文短段落讲清话题，搭配蓝白数据图与关系图"
+  default_prompt: "用 $tuwen 制作这次主题的短段落文案和配图，沿用蓝白报表配色，按实际内容安排段落。"
