@@ -17,6 +17,14 @@
 - [封面质检提示词](modules/xiaohongshu-cover/prompts/04-封面质检提示词.md)
 - [10 个需求卡示例](modules/xiaohongshu-cover/examples/10个需求卡示例.md)
 
+### 02. 图文：短段落解释与数据配图
+
+用中文短段落讲清财经、商业与科技话题，搭配蓝白竖版数据图或关系图。支持普通对话中复制指令使用，也提供 Codex Skill 文件。
+
+- [使用说明、需求卡与三个示例](modules/tuwen/docs/使用说明.md)
+- [图文 Skill](modules/tuwen/skill/SKILL.md)
+- [蓝白视觉规范](modules/tuwen/skill/references/visual.md)
+
 ## 未来可扩展模块
 
 - 自媒体账号定位
@@ -62,7 +70,7 @@ modules/short-video-script/
 
 ## 能力边界
 
-本项目提供普通聊天可执行的提示词和人工工作流，不包含自动读取文件、自动调用生图、自动多轮检查等 Agent 自动化能力。纯文字模型可负责策划与生成提示词，图片仍需交给具备生图功能的平台。
+普通聊天模块提供可复制的提示词和人工工作流；纯文字模型可负责策划与生成提示词，图片仍需交给具备生图或绘图功能的平台。图文模块另提供可安装的 Codex Skill，其文件读取、联网核验与图像生成能力取决于运行环境中可用的工具。
 
 ## 来源说明
 
